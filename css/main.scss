@@ -67,7 +67,7 @@ body {
 		color: #fff;
 		// text-shadow: 2px 2px #333;
 		// filter: dropshadow(color=#333, offx=1, offy=1);
-		display: block; 
+		display: block;
 
 		small {
 			color: #fff;
@@ -78,6 +78,7 @@ body {
 	background-position: center center;
 	// background-attachment: fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
 	background-color: #000;
 
 }
@@ -100,16 +101,18 @@ body {
 }
 
 .jumbo-parallax {
-	
+
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
 
 
 	@media (max-width: 992px) {
 		background-attachment: initial;
 		background-size: cover;
+		-webkit-background-size: cover;
 	}
 
 }
